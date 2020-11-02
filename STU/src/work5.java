@@ -4,5 +4,6 @@
 public class work5 {
     public static void main(String[] args) {
         System.out.println("fuck off!");
+        System.out.println("hello word");
     }
 }
