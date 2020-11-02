@@ -15,7 +15,7 @@ public class work4 {
                 if (sc.next()=="y"){
                     System.out.print("扩容");
                 }if(sc.next()=="n"){
-                    System.out.print("不扩容");
+                    System.out.print("");
                     //break;
                 }
             }
