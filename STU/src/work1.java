@@ -18,11 +18,13 @@ public class work1 {
             num = day;
         }
         //判断是否为闰年
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
-            if (mount > 1 && mount < 13)
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+            if (mount > 1 && mount < 13) {
                 num = leapYear[mount - 2] + day;
-            else if (mount > 1 && mount < 13)
-                num = leapYear[mount - 2] + day - 1;
+            }
+        }else if (mount > 1 && mount < 13) {
+            num = leapYear[mount - 2] + day - 1;
+        }
 
         System.out.printf("第" + num + "天");
     }
