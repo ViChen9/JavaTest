@@ -3,7 +3,7 @@
  */
 import java.util.Arrays;
 
-public class work4 {
+public class Work4 {
     public static void main(String[] args) {
         int[] arr = new int[10];
         int i = 0;

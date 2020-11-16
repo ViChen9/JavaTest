@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * 3. 编程题 实现双色球抽奖游戏中奖号码的生成，中奖号码由 6 个红球号码和 1 个蓝球号码组成。 其中红球号码要求随机生成 6 个 1~33 之间不重复的随机号码。 其中蓝球号码要求随机生成 1 个 1~16 之间的随机号码。
  */
-public class work3 {
+public class Work3 {
     public static void main(String[] args) {
         //声明一维数组red的长度
         int[] red = new int[7];
@@ -27,6 +27,6 @@ public class work3 {
             //根据循环数组底数将筛选后的随机数写入
             red[a] = tem;
         }
-        System.out.printf(Arrays.toString(red));
+        System.out.print(Arrays.toString(red));
     }
 }
