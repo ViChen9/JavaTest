@@ -39,7 +39,7 @@ public class JieChengTest {
         /*
         if(1 == n){
             return 1;
-        }
+        }*
          */
         if(1 == n) return 1;
         //否则阶乘的结果就是 n*(n-1)!
