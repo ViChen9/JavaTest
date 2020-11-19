@@ -12,18 +12,19 @@ public class StaticTest {
     private static int snt = 2; // 隶属于类成绩，也就是所有对象都共享同一份
 
     // 自定义非静态的成员变量  需要使用引用.的方式访问
-    public void show(){
+    public void show() {
         System.out.println("cnt = " + cnt); // 1
         System.out.println("snt = " + snt); // 2  静态成员被所有对象共享，this关键字可以省略
     }
+
     // 自定义静态的成员方法 推荐使用类名.的方式访问
-    public static void test(){
+    public static void test() {
 
         //System.out.println("cnt = " + cnt); // 1  静态成员方法中没有this关键字，因为是可以通过类名.方法调用的
         System.out.println("snt = " + snt); // 2
     }
 
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
 
         StaticTest st = new StaticTest();
         st.show();

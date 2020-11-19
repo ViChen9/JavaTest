@@ -15,7 +15,7 @@ public class PeopleTest {
 
         // 3.验证static关键字修饰的静态成员(类成员)是否与创建对象无关 类名.的方式
         //System.out.println("获取到的国籍信息是："+People.country); // null
-        System.out.println("获取到的国籍信息是："+People.getCountry());
+        System.out.println("获取到的国籍信息是：" + People.getCountry());
 
         // 1.使用有参方式构造两个People类型的对象并打印特征
         People p1 = new People("张飞", 30/*, "China"*/);
