@@ -46,7 +46,7 @@ public class Person {
     }
 
     // 自定义成员方法实现特征的打印
-    void show() {
+    public void show() {
         System.out.println("我是" + name + "，今年" + age + "岁了");
     }
 
