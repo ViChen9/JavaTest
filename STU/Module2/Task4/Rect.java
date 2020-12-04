@@ -48,6 +48,11 @@ public class Rect extends Shape {
     @Override
     public void show() {
         super.show();
-        System.out.println("长度是:"+getLen()+"宽度是:"+getWid());
+        System.out.println("长度是:" + getLen() + "宽度是:" + getWid());
+    }
+
+    //@Override
+    public static void test() {
+        System.out.println("Rect类中的静态方法");
     }
 }

@@ -35,4 +35,7 @@ public class Shape {
     public void show(){
         System.out.println("横坐标:"+getX()+"中坐标:"+getY());
     }
+    public static void test(){
+        System.out.println("Shape类中的静态方法");
+    }
 }
