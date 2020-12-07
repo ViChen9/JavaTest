@@ -33,7 +33,7 @@ public class Shape {
         this.y = y;
     }
     public void show(){
-        System.out.println("横坐标:"+getX()+"中坐标:"+getY());
+        System.out.println("横坐标:"+getX()+"纵坐标:"+getY());
     }
     public static void test(){
         System.out.println("Shape类中的静态方法");

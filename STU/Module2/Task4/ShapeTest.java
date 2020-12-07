@@ -7,13 +7,22 @@ package Task4;
  **/
 public class ShapeTest {
 
-    public static void draw(Rect r){
-        r.show();
+    // 矩形
+//    public static void draw(Rect r) {
+//        r.show();
+//    }
+    // 圆形
+//    public static void draw(Circle c){
+//        c.show();
+//    }
+    // 圆形加矩形
+    public static void draw(Shape s){
+        s.show();
     }
 
     public static void main(String[] args) {
 
-        ShapeTest.draw(new Rect(1,2,3,4));
-
+        ShapeTest.draw(new Rect(1, 2, 3, 4));
+        ShapeTest.draw(new Circle(5,6,7));
     }
 }
